@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('PCIside.jfif'); /* Replace with your image URL */
+    background-image: url('PCInside.jfif'); /* Replace with your image URL */
     background-size: cover; /* Ensures the background covers the entire screen */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Makes the background image stay fixed in place during scrolling */
