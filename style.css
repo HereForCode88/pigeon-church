@@ -2,12 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('PCIside.jfif'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the background covers the entire screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Makes the background image stay fixed in place during scrolling */
+    background-position: center; /* Centers the background image */
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.8); /* Adds a semi-transparent background to make text readable */
     color: white;
     padding: 20px 10%;
     text-align: center;
@@ -26,6 +30,8 @@ header p {
 .content {
     padding: 40px 10%;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent background to content */
+    border-radius: 10px;
 }
 
 .content h2 {
